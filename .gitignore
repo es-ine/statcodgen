@@ -1,0 +1,11 @@
+# Ignorar archivos de compilacion
+*.class
+
+# Ignorar carpetas especificas
+codauto.egg-info/
+build/
+__pycache__/
+codauto/__pycache__/
+jupyter_notebooks/.ipynb_checkpoints/
+# Ignorar scirpts de prueabs
+pruebas_codifier.py
