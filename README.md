@@ -60,9 +60,9 @@ conda env create -f entorno_codpython_20240613.yml
 ````
 
 #### Install codauto 
-Type this for install codauto v.1.0.0 lib from gitlab repository in python.
+Type this for install codauto v.1.0.0 lib from github repository in python.
 ```conda
-pip install git+https://gitlab.ine.es/prod-estadistica/metodologia/clasificaciones/statcodgen.git@v.1.0.0
+pip install git+https://github.com/es-ine/statcodgen.git@v1.0.0
 ```
 ### Generate a Structured child for your classification.
 This library provides an abstract class for processing any standard structure, *Structured*. 
